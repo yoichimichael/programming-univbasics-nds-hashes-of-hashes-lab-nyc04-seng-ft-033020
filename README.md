@@ -91,7 +91,7 @@ assign them before nesting them in `child`.  We can write a nested HoH using
 literal formatting:
 
 ```ruby
-# AoH in one go
+# HoH in one go
 child = {:name=>"Carrie Fisher", :mother=>{:name=>"Debbie Reynolds", :mother=>{}, :father=>{}}, :father=>{:name=>"Eddie Fisher", :mother=>{}, :father=>{}}}
 
 # Same as above, but using whitespace to make it easier for humans to read
