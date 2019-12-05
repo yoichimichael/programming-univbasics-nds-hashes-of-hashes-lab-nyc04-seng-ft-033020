@@ -123,7 +123,7 @@ means that we can "tunnel" through the infinite regress of HoHs to get data.
 We've kept the regress very shallow here (2 generations), but you can imagine a
 longer family tree could be quite deep indeed!
 
-## Read Scalar Data From a Nested Array
+## Read Scalar Data From a Nested Hashes
 
 One of the defining features of HoHs is that we use stacked keys to get data
 out of the complex tree.  To read an element from a HoH simply "stack" keys:
